@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+
+
+    <fragment
+        android:id="@+id/loginfragmentXml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.example.fragments.LoginFragment"
+        android:layout_margin="15dp"
+        />
+
+
+    <fragment
+        android:id="@+id/userfragmentXml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.example.fragments.UserFragment"
+        android:layout_margin="15dp"
+        />
+
+
+</LinearLayout>
